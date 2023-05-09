@@ -17,7 +17,6 @@ public class Main1 {
 				break;
 			} catch (InputMismatchException e) {
 				System.out.println("Input non valido, inserisci un numero positivo!");
-//				scanner.nextLine();
 			}
 		}
 		Set<String> words = new HashSet<>();
@@ -26,7 +25,6 @@ public class Main1 {
 			for (int i = 0; i < number; i++) {
 				System.out.println("Inserisci la parola numero " + (i + 1) + ": ");
 				String word = scanner.next();
-
 				if (words.contains(word)) {
 					duplicateWords.add(word);
 				} else {

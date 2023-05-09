@@ -6,7 +6,6 @@ import java.util.List;
 import java.util.Random;
 
 public class Main2 {
-
 	public static void main(String[] args) {
 		List<Integer> list = orderedList(10);
 		System.out.println(list);
@@ -29,7 +28,6 @@ public class Main2 {
 		Collections.reverse(reversedList);
 		list.addAll(reversedList);
 		return list;
-
 	}
 
 	public static void EvenOddList(List<Integer> list, boolean bool) {
